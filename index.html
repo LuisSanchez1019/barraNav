@@ -1,180 +1,124 @@
 <!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
-  <head>
-    <link rel="icon" href="/imagenes/EssiAzul.png" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1"
-    />
-    <title>ESSI-inicio</title>
-    <link rel="stylesheet" href="Style.css" />
-    <script src="main.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <div class="interior">
-        <a href="" class="logo" target="blank">
-          <img src="./imagenes/EssiAzul.png" alt="Logoessi"
-        /></a>
-        <nav class="navegacion">
-          <ul>
-            <li class="submenu">
-              <a href="" target="blank"
-                >Produccion<i class="bi bi-chevron-down"></i
-              ></a>
-              <ul class="hijos">
-                <li><a href="">Bitacora-ejecucuion de actividades</a></li>
-                <li><a href="">Gestion de actividades</a></li>
-                <li><a href="">Orden de fabricacion mecanizados</a></li>
-                <li><a href="">Informes dato maestro</a></li>
-              </ul>
-            </li>
-            <li class="submenu">
-              <a href="" target="blank"
-                >Repuestos<i class="bi bi-chevron-down"></i
-              ></a>
-              <ul class="hijos">
-                <li><a href="">orden de venta </a></li>
-                <li>
-                  <a href="">remision de venta-en base a orden de venta </a>
-                </li>
-                <li>
-                  <a href="">lista de embalaje en base a remision de venta</a>
-                </li>
-                <li><a href="">informes dato maestro</a></li>
-              </ul>
-            </li>
-            <li class="submenu">
-              <a href="" target="blank"
-                >Ingenieria<i class="bi bi-chevron-down"></i
-              ></a>
-              <ul class="hijos">
-                <li><a href="">Dato maestro del articulo</a></li>
-                <li><a href="">Gestion lista de materiales(b.o.m)</a></li>
-                <li><a href="">gestion de proyectos</a></li>
-                <li><a href="">informes dato maestro</a></li>
-              </ul>
-            </li>
-            <li class="submenu">
-              <a href="" target="blank"
-                >Almacen<i class="bi bi-chevron-down"></i
-              ></a>
-              <ul class="hijos">
-                <li><a href="">Item1</a></li>
-                <li><a href="">Item2</a></li>
-                <li><a href="">Item3</a></li>
-                <li><a href="">Item4</a></li>
-                <li><a href="">Item5</a></li>
-              </ul>
-            </li>
-            <li class="submenu">
-              <a href="" target="blank"
-                >Contabilidad<i class="bi bi-chevron-down"></i
-              ></a>
-              <ul class="hijos">
-                <li><a href="">Item1</a></li>
-                <li><a href="">Item2</a></li>
-                <li><a href="">Item3</a></li>
-                <li><a href="">Item4</a></li>
-                <li><a href="">Item5</a></li>
-              </ul>
-            </li>
-            <li class="submenu">
-              <a href="" target="blank"
-                >Compras<i class="bi bi-chevron-down"></i
-              ></a>
-              <ul class="hijos">
-                <li><a href="">Item1</a></li>
-                <li><a href="">Item2</a></li>
-                <li><a href="">Item3</a></li>
-                <li><a href="">Item4</a></li>
-                <li><a href="">Item5</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="" target="blank">Salir</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
-    <!-- ---------------------CODIGO TITULO--------------- -->
-    <div class="titulo1">
-      <h1>Programacion de Cronograma</h1>
-    </div>
-    <!-- Grid de cajas de pantalla separada -->
-    <div class="grid">
-      <!-- MENU DONDE SE ENCUENTRA DATOS DEL MDOULO PRINCIPAL  -->
-      <div>
-        <p>OT</p>
-        <br />
-        <select class="select1">
-          <option>preuba caja 1</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-        </select>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>EssiSoft_barra_nav</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<header>
+  
+  <div class="wrapper_nav">
+    <nav class="eti_nav_nav">
+      <input class="eti_input_nav" type="checkbox" id="show-search">
+      <input class="eti_input_nav" type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon_nav"><i class="fas fa-bars"></i></label>
+      <div class="content_nav">
+        <div class="logo_nav"> <a href="#" class="a_logo_nav" target="blank">
+            <img class="eti_img_nav" src="./imagenes/EssiAzul.png" alt="Logoessi" /></a></div>
+        <ul class="links_nav">
+          <li><a class="eti_a_nav" href="#">Inicio</a></li>
+          <li>
+            <a href="#" class="desktop-link_nav">Produccion</a>
+            <input class="eti_input_nav" type="checkbox" id="show-services">
+            <label for="show-services">Produccion<i class="bi bi-chevron-compact-down"></i></label>
+            <ul class="submenuss_nav">
+              <li><a href="#">Programacion de conograma</a></li>
+              <li><a href="#">Bitacora-ejecucuion de actividades</a></li>
+              <li><a href="#">Gestion de actividades</a></li>
+              <li><a href="#">Orden de fabricacion mecanizados</a></li>
+              <li><a href="#">Informes dato maestro</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link_nav">Repuestos</a>
+            <input class="eti_input_nav" type="checkbox" id="show-features">
+            <label for="show-features">Repuestos<i class="bi bi-chevron-compact-down"></i></label>
+            <ul class="submenuss_nav">
+              <li><a href="#">Orden de venta</a></li>
+              <li><a href="#">Remision de venta-en base a orden de venta</a></li>
+              <li><a href="#">Lista de embalaje en base a remision de venta</a></li>
+              <li><a href="#">Informes dato maestro</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link_nav">ingenieria</a>
+            <input class="eti_input_nav" type="checkbox" id="show-ingenieria">
+            <label for="show-ingenieria">ingenieria<i class="bi bi-chevron-compact-down"></i></label>
+            <ul class="submenuss_nav">
+              <li><a href="#">Dato maestro del articulo</a></li>
+              <li><a href="#">Gestion lista de materiales(B.O.M)</a></li>
+              <li><a href="#">Gestion de proyectos</a></li>
+              <li><a href="#">Informes dato maestro</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link_nav">Almacen</a>
+            <input class="eti_input_nav" type="checkbox" id="show-almacen">
+            <label for="show-almacen">Almacen<i class="bi bi-chevron-compact-down"></i></label>
+            <ul class="submenuss_nav">
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link_nav">Contabilidad</a>
+            <input class="eti_input_nav" type="checkbox" id="show-Contabilidad">
+            <label for="show-Contabilidad">Contabilidad<i class="bi bi-chevron-compact-down"></i></label>
+            <ul class="submenuss_nav">
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link_nav">Compras</a>
+            <input class="eti_input_nav" type="checkbox" id="show-compras">
+            <label for="show-compras">Compras<i class="bi bi-chevron-compact-down"></i></label>
+            <ul class="submenuss_nav">
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link_nav">Gobierno</a>
+            <input class="eti_input_nav" type="checkbox" id="show-Gobierno">
+            <label for="show-Gobierno">Gobierno<i class="bi bi-chevron-compact-down"></i></label>
+            <ul class="submenuss_nav">
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link_nav">HSEQ</a>
+            <input class="eti_input_nav" type="checkbox" id="show-Hseq">
+            <label for="show-Hseq">HSEQ<i class="bi bi-chevron-compact-down"></i></label>
+            <ul class="submenuss_nav">
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+              <li><a href="#">Por definir</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Salir</a></li>
+        </ul>
       </div>
-      <div >
-        <p>Proyecto</p>
-        <br/>
-        <input class="ingresar" type="text" placeholder="Ingrese el Proyecto" />
-      </div>
-      <div>
-        <p>Rol</p>
-        <br />
-        <input class="ingresar" type="text" placeholder="Ingrese el Rol" />
-      </div>
-      <div class="ingresar">
-        <p>Fecha de incio</p><br/>
-        <input type="date" placeholder="Ingrese la fecha de inicio" />
-      </div>
-      <div>
-        <p>Codigo del Sistema</p><br />
-        <select class="select1">
-          <option>preuba caja 1</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-        </select>
-      </div>
-      <div>
-        <p>Codigo de la Maquina</p><br/>
-        <select class="select1">
-          <option>preuba caja 1</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-        </select>
-      </div>
-    </div>
-    <!-- FIN DEL GRID -->
-    <div class="cajaprincipal">
-      <div>
-        <p class="Actividades">Actividades</p>
-        <br />
-      </div>
-      <div>
-        <label>
-          <input class="checkbox1" type="checkbox" />
-          Este es mi primer checkbox</label><br/>
-          <input type="checkbox"/>
-        <label for="cbox2">Este es mi segundo checkbox</label>
-      </div>
-       <div class="boton1">
-         <input type="submit" value="Enviar" />
-      </div>
-    </div>
-  </body>
+    </nav>
+  </div>
+</header>
+<body>
+</body>
 </html>
